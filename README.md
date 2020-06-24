@@ -13,6 +13,7 @@ Mutual Exclusion (mutex) object for JavaScript.
 * [API](#api)
   * [Configuration](#configuration)
 * [Usage examples](#usage-examples)
+  * [Image server example](#image-server-example)
 
 ## Motivation
 
