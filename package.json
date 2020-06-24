@@ -62,7 +62,7 @@
   ],
   "license": "BSD-3-Clause",
   "main": "./dist/index.js",
-  "name": "global-agent",
+  "name": "mutual-exclusion",
   "nyc": {
     "all": true,
     "exclude": [
