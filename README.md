@@ -14,6 +14,7 @@ Mutual Exclusion ([mutex](https://en.wikipedia.org/wiki/Mutual_exclusion)) objec
   * [Configuration](#configuration)
 * [Usage examples](#usage-examples)
   * [Image server example](#image-server-example)
+* [Related libraries](#related-libraries)
 
 ## Motivation
 
@@ -170,3 +171,7 @@ router.use('/images/:uid', async (incomingMessage, serverResponse) => {
 });
 
 ```
+
+## Related libraries
+
+* [await-mutex](https://www.npmjs.com/package/await-mutex) – Similar implementation to mutual-exclusion, but without separation by `key` and timeouts.
