@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "canonical",
+    "canonical/flowtype"
+  ],
+  "root": true,
+  "rules": {
+    "class-methods-use-this": 0,
+    "fp/no-class": 0,
+    "fp/no-events": 0,
+    "fp/no-this": 0,
+    "import/no-cycle": 0,
+    "no-continue": 0,
+    "no-restricted-syntax": 0,
+    "no-unused-expressions": [
+      2,
+      {
+        "allowTaggedTemplates": true
+      }
+    ]
+  }
+}
