@@ -40,12 +40,9 @@
     "eslint-config-canonical": "^20.0.5",
     "flow-bin": "^0.125.1",
     "flow-copy-source": "^2.0.9",
-    "got": "^11.1.4",
     "husky": "^4.2.5",
     "nyc": "^15.1.0",
-    "request": "^2.88.2",
-    "semantic-release": "^17.0.8",
-    "sinon": "^9.0.2"
+    "semantic-release": "^17.0.8"
   },
   "engines": {
     "node": ">=10.0"
