@@ -37,6 +37,7 @@ export default (mutexConfigurationInput?: MutexConfigurationInputType): MutexTyp
       lockConfigurationInput = mutexConfiguration,
     ) => {
       const lockConfiguration = {
+        // $FlowFixMe
         ...mutexConfiguration,
         ...lockConfigurationInput,
       };
